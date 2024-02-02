@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mossad clone coding</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font-family: 'Noto Sans Hebrew', sans-serif; -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font-family: 'Fira Sans', sans-serif; -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- font-family: 'Lato', sans-serif; -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/youtube-background/jquery.youtube-background.min.js"></script>
+
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="main_grid_background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <header id="header">
+            <div class="header">
+                <div class="header_left header_box">
+                    <h1 class="logo">
+                        <a href="#">
+                            <div class="logo_img">
+                                <img src="./img/rohm-logo.png" alt="">
+                            </div>
+                            <div class="logo_txt">
+                                <strong>Mossad</strong>
+                                <span>Israeli Secret Intelligence Service</span>
+                            </div>
+                        </a>
+                    </h1>
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">History</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header_right header_box">
+                    <div class="hr_bookmark">
+                        <a href="#;">
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                            <span class="bookmark_length">0</span>
+                        </a>
+                    </div>
+                    <div class="send_info">
+                        <a href="#">فارسی
+                            <img src="./img/square-arrow-white.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="send_info">
+                        <a href="#">العربية
+                            <img src="./img/square-arrow-white.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="lang_select">
+                        <a href="#">עב</a>
+                        /
+                        <a href="#">EN</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="main">
+            <div class="container">
+                <div class="main_video_background" data-vbg="https://youtu.be/a54mP2ZJi0U?si=E-yj0JAiz05osh1P"></div>
+                <div class="main">
+                    <div class="main_search_area">
+                        <div class="main_slogan">
+                            <h2>Find meaning in your career</h2>
+                            <br>
+                            <span>For example, software engineer, cyber or administration</span>
+                        </div>
+                        <div class="main_search_input">
+                            <input type="search" id="main_search" name="main_search" placeholder="Search">
+                        </div>
+                        <div class="main_link_category">
+                            <ul>
+                                <li><a href="#;">Operational</a></li>
+                                <li><a href="#;">Intelligence</a></li>
+                                <li><a href="#;">Position abroad</a></li>
+                                <li><a href="#;">Full-time</a></li>
+                                <li><a href="#;">Students</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main_section_move">
+            <a href="#our_tasks">
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+        </div>
+        <section id="main_recruit">
+            <div class="container">
+                <div class="main_recruit">
+                    <div id="our_tasks" class="our_tasks">
+                        <div class="our_tasks_list">
+                            <ul>
+                                <li class="active">
+                                    <button class="task_list_btn">
+                                        <div class="tlb_deco">
+                                            <div class="tlb_deco_inner"></div>
+                                        </div>
+                                        <strong>Significance and Challenges</strong>
+                                    </button>
+                                    <div class="task_desc">
+                                        <p>
+                                            The Mossad carries out unique global activity to overcome exceptional operational, intelligence, and technological challenges that have a direct impact on the security of the State of Israel.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="task_list_btn">
+                                        <div class="tlb_deco">
+                                            <div class="tlb_deco_inner"></div>
+                                        </div>
+                                        <strong>Human Capital</strong>
+                                    </button>
+                                    <div class="task_desc">
+                                        <p>
+                                            Mossad employees are the source of the organization's strength, and the driving force behind its activity and achievements. Mossad employees carry the weight of value-driven leadership that incorporates excellence, professionalism, and humanity for the fulfillment of the organization's goals, out of a deep sense of commitment to national security.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="task_list_btn">
+                                        <div class="tlb_deco">
+                                            <div class="tlb_deco_inner"></div>
+                                        </div>
+                                        <strong>Innovation & Technology</strong>
+                                    </button>
+                                    <div class="task_desc">
+                                        <p>
+                                            The Mossad is at the cutting edge of technology, and cooperates closely with technological and cyber bodies from both the security establishment and the civilian sector. Mossad employees employ creative and out-of-the-box thinking to provide sophisticated and covert technological solutions for the organization's intelligence and operational needs. This is a playground of infinite proportions, with limitless opportunities for imagination and action!                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="hot_positions" class="hot_positions">
+                        <div class="section_header white">
+                            <h2>Hot Positions</h2>
+                        </div>
+                        <div class="hp_list">
+                            <ul>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hpl_box" tabindex="0">
+                                        <div class="hp_desc">
+                                            <span class="hp_cate">מודיעין</span>
+                                            <h3>אנליסט/ית טכנו-מודיעיני</h3>
+                                            <p>תפקיד מאתגר בסביבה צעירה ודינמית. התפקיד כולל מתן מענה מודיעיני-טכנולוגי לפעילות מבצעית בתוך שימוש בשפה ובכלים טכנולוגיים מתקדמים. ההכשרה לתפקיד כוללת לימודי שפה.</p>
+                                        </div>
+                                        <div class="hp_util">
+                                            <div class="bookmark">
+                                                <button>
+                                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                                    <ion-icon name="bookmark"></ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="more_info">
+                                                <a href="#">View Position</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="your_domain">
+            <div class="your_domain">
+                <div class="section_header type_container">
+                    <h2>What's your domain?</h2>
+                </div>
+                <div class="domain_scroll">
+                    <div class="domain_scroll_box">
+                        <div class="scroll_box_inner">
+                            <div class="scroll_slide type1 size1 ssb_color1">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_ico">
+
+                                        </div>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Technology</h3>
+                                            <p>
+                                                <span>56</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type2 size2 ssb_color2">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Administrative</h3>
+                                            <p>
+                                                <span>24</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type3 size1 ssb_pic pic1">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Position abroad</h3>
+                                            <p>
+                                                <span>3</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type4 size1 ssb_pic pic2">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Operational</h3>
+                                            <p>
+                                                <span>7</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type5 size2 ssb_color4">
+                                <div class="scroll_slide_box type_border">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt bl">
+                                            <h3 class="slide_cate">Intelligence</h3>
+                                            <p>
+                                                <span>11</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type3 size1 ssb_color1">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Technology</h3>
+                                            <p>
+                                                <span>56</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type5 size2 ssb_color2">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Position abroad</h3>
+                                            <p>
+                                                <span>11</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type4 size1 ssb_color3 pos_bot">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Administrative</h3>
+                                            <p>
+                                                <span>7</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type3 size1 ssb_color4">
+                                <div class="scroll_slide_box type_border">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_txt bl">
+                                            <h3 class="slide_cate">Intelligence</h3>
+                                            <p>
+                                                <span>11</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_slide type1 size1 ssb_color1">
+                                <div class="scroll_slide_box">
+                                    <div class="slide_box_inner">
+                                        <a href="#;" target="_blank"></a>
+                                        <div class="slide_ico">
+
+                                        </div>
+                                        <div class="slide_txt">
+                                            <h3 class="slide_cate">Operational</h3>
+                                            <p>
+                                                <span>7</span>
+                                                &nbsp;
+                                                <span>Positions</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        window.addEventListener('load', () => {
+                            let scrollElement = document.querySelector('.domain_scroll_box');
+                            scrollElement.scrollLeft =  (scrollElement.scrollWidth - scrollElement.clientWidth ) / 2;
+                        });
+                    </script>
+                    <div class="domain_scroll_control">
+                        <button class="dsc_left">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                        </button>
+                        <button class="dsc_right">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer_box left">
+                        <h2>Have you always felt that your place is with us</h2>
+                        <p>You can submit a general application, when the right one for you appears, we will contact you</p>
+                        <a href="#">
+                            For general application
+                            <img src="./img/send-white.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer_box right">
+                        <ul>
+                            <li><a href="#">positions</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">Accesbility</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

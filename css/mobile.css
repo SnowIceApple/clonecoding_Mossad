@@ -1,0 +1,313 @@
+
+@media all and (max-width: 768px){
+
+    .main_grid_background span:nth-child(2n){
+        display: none;
+    }
+
+    .main_search_area{
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10vw;
+    }
+
+    .main_slogan{
+        text-align: center;
+    }
+
+    .main_slogan h2{
+        font-size: 16vw;
+        line-height: 1;
+    }
+
+    .main_slogan span{
+        display: none;
+    }
+
+    .main_search_input{
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+
+    #main_search{
+        font-size: 4vw;
+        padding: 2.5vw 4vw;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #main_search::placeholder{
+        opacity: 0.7;
+        font-weight: 300;
+    }
+
+    .main_link_category{
+        width: 100%;
+    }
+
+    .main_link_category ul{
+        justify-content: center;
+        gap: 2vw;
+        box-sizing: border-box;
+        padding: 0 3.4vw;
+    }
+
+    .main_link_category ul li a{
+        font-size: 3.5vw;
+        padding: 2vw 3.2vw;
+    }
+
+    .main_section_move{
+        bottom: 10vw;
+    }
+
+    .main_section_move a{
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .main_section_move a ion-icon{
+        font-size: 7vw;
+    }
+
+    .section_header{
+        padding-bottom: 4.5vw;
+    }
+
+    .section_header h2{
+        font-size: 7.5vw;
+    }
+
+    .your_domain .section_header h2{
+        text-align: center;
+    }
+
+    #main_recruit{
+        padding: 30vw 0;
+    }
+
+    .our_tasks{
+        height: auto;
+    }
+
+    .our_tasks_list{
+        width: 100%;
+    }
+
+    .our_tasks_list ul li{
+        margin-bottom: 12vw;
+    }
+
+    .task_list_btn{
+        padding-left: 0px;
+        cursor: default;
+        margin-bottom: 6vw;
+    }
+
+    .tlb_deco{
+        display: none;
+    }
+
+    .our_tasks_list ul li strong{
+        filter: blur(0px);
+        padding-left: 0px;
+        font-size: 6.4vw !important;
+        font-weight: 700;
+    }
+
+    .task_desc{
+        position: static !important;
+        width: 100%;
+        padding-left: 0px;
+        display: block;
+    }
+    
+    .task_desc p{
+        font-size: 4vw;
+        font-weight: 300;
+        opacity: 0.7;
+    }
+
+    .hot_positions{
+        padding-top: 30vw;
+    }
+
+    .hp_list{
+    }
+
+    .hp_list ul{
+        width: auto;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        touch-action: pan-x;
+        gap: 0 2vw;
+    }
+
+    .hp_list ul li{
+        width: auto;
+        margin-bottom: 0px;
+    }
+
+    .hpl_box{
+        width: 60vw;
+        height: 60vw;
+        padding: 3vw 4.5vw;
+    }
+
+    .hpl_box::before{
+        height: 2px;
+    }
+
+    .hp_cate{
+        font-size: 3vw;
+        margin-bottom: 5vw;
+        opacity: 0.7;
+    }
+
+    .hp_desc{
+        width: 100%;
+        height: 60%;
+        align-content: center;
+    }
+
+    .hpl_box:focus .hp_desc,
+    .hpl_box:hover .hp_desc{
+        height: 66%;
+    }
+
+    .hp_desc h3{
+        font-size: 4vw;
+        font-weight: 300;
+    }
+
+    .hp_desc p{
+        display: none;
+    }
+
+    .hp_util{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .more_info a{
+        font-size: 3.4vw;
+        font-weight: 300;
+    }
+
+    .bookmark button ion-icon{
+        font-size: 4vw;
+    }
+
+    .your_domain{
+        padding-top: 20vw;
+    }
+
+    .domain_scroll{
+        height: auto;
+    }
+
+    .domain_scroll_box{
+        width: 100%;
+        padding: 6% 0;
+    }
+
+    .scroll_box_inner{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 10vw;
+    }
+
+    .scroll_slide.size1 .scroll_slide_box{
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .scroll_slide.size2 .scroll_slide_box{
+        width: 47vw;
+        height: 47vw;
+    }
+
+    .scroll_slide.type1{
+        margin-top: 30vw;
+        padding-bottom: 0px;
+    }
+
+    .scroll_slide.type2 .scroll_slide_box{
+        margin-top: 0px;
+        margin-bottom: 13vw;
+    }
+
+    .scroll_slide.type3 .scroll_slide_box{
+        margin-top: 22vw;
+    }
+
+    .scroll_slide_box .slide_box_inner{
+        padding: 3.8vw 2vw;
+    }
+
+    .slide_txt h3{
+        font-size: 4.4vw;
+        margin-bottom: 1vw;
+    }
+
+    .slide_txt p{
+        font-size: 4vw;
+    }
+
+    .domain_scroll_control button{
+        margin: 0 5vw;
+    }
+
+    .domain_scroll_control button ion-icon{
+        font-size: 7vw;
+    }
+
+    #footer{
+        padding: 10vw 0 11vw 0;
+    }
+
+    .footer{
+        padding-left: 0px;
+    }
+
+    .footer_box{
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .footer_box.left h2{
+        font-size: 6.5vw;
+    }
+
+    .footer_box.left p{
+        font-size: 4.5vw;
+        margin-top: 1.5vw;
+        font-weight: 300;
+    }
+
+    .footer_box.left a{
+        margin-top: 5vw;
+        font-size: 5vw;
+    }
+
+    .footer_box.left a img{
+        width: 4vw;
+        margin-left: 2.5vw;
+    }
+
+    .footer_box.right{
+        margin-top: 12vw;
+    }
+
+    .footer_box.right ul li{
+        width: 100%;
+        margin-bottom: 6vw;
+    }
+    
+    .footer_box.right ul li a{
+        font-size: 4.3vw;
+        font-weight: 300;
+    }
+}
