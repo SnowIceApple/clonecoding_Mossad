@@ -147,6 +147,19 @@ body{
     line-height: 1.4;
 }
 
+.mobile_menu_btn{
+    display: none;
+    position: absolute;
+    left: 5vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mobile_menu_btn button img{
+    width: 8.5vw;
+    height: auto;
+}
+
 #nav{
     height: 100%;
 }
@@ -244,6 +257,7 @@ body{
     align-items: center;
     color: #fff;
     margin-left: 0.4vw;
+    font-size: 0.8vw;
 }
 
 .lang_select a{
