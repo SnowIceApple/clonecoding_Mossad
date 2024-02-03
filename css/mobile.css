@@ -276,7 +276,6 @@
         width: auto;
         flex-wrap: nowrap;
         overflow-x: scroll;
-        touch-action: pan-x;
         gap: 0 2vw;
     }
 

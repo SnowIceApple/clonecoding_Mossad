@@ -786,7 +786,6 @@ body{
     width: auto;
     height: 100%;
     overflow-x: scroll;
-    touch-action: pan-x;
     scroll-behavior: smooth;
 }
 
