@@ -127,6 +127,9 @@
         padding-top: 21vw;
         box-sizing: border-box;
         height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
     .main{
